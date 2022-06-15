@@ -1,0 +1,168 @@
+.main.container {
+  width: 1200px;
+}
+
+.header {
+  background-image: url(./image/bg-img/header-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header_text {
+  margin: 200px 0;
+}
+
+.header_text h1 {
+  font-size: 1.9rem;
+}
+
+.header_text h2 {
+  font-weight: bold;
+  font-size: 2.9rem;
+  color: #ec4c77;
+}
+
+.header_text p {
+  margin: 30px 0 20px 0;
+}
+
+.header_text button {
+  color: white;
+  background: linear-gradient(to right, #ec4c77, #f02051);
+  padding: 5px 25px;
+}
+
+.header_text button:hover {
+  color: white;
+  background: linear-gradient(to right, #9e3954, #be0732);
+}
+.pretter_img {
+  margin: 60px;
+}
+
+.pretter_img img {
+  width: 600px;
+  height: 600px;
+}
+
+.biography {
+  background-image: url(./image/bg-img/biography-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.petter_dream_img {
+  margin: 80px 60px 60px 0;
+}
+
+.petter_dream_img img {
+  width: 550px;
+  height: 650px;
+}
+
+.biography_text {
+  margin: 230px 0;
+}
+
+.biography_text h3 {
+  font-size: 2rem;
+}
+
+.biography_text p {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.biography_text button {
+  color: white;
+  background: linear-gradient(to right, #ec4c77, #f02051);
+  padding: 5px 25px;
+}
+
+.biography_text button:hover {
+  color: white;
+  background: linear-gradient(to right, #9e3954, #be0732);
+}
+
+.latest_work {
+  background-image: url(./image/bg-img/latest-work-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.latest_work_header {
+  text-align: center;
+  margin: 100px 0;
+}
+
+.latest_work_header h4 {
+  font-size: 2rem;
+}
+
+.latest_work_row {
+  padding-bottom: 100px;
+}
+
+.latest_work_img {
+  width: 100%;
+}
+
+.footer {
+  background-image: url(./image/bg-img/footer-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer_text {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.footer_text h5 {
+  font-size: 2rem;
+  margin: 50px 0;
+}
+
+.founder_name {
+  margin-bottom: 50px;
+}
+
+.founder_name p {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comment_text {
+  width: 380px;
+}
+
+.feedback_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0 50px 0;
+}
+
+.contact_us {
+  width: 600px;
+  background: linear-gradient(to right, #ec4c77, #f02051);
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.contact_us p:nth-child(2) {
+  font-size: 1.5rem;
+}
+
+.main_footer {
+  text-align: center;
+  padding: 20px 0;
+}
